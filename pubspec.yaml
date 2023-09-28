@@ -1,7 +1,7 @@
 name: custom_flutter_textfield
-description: A new Flutter package project.
+description: A Custom TextFormField For Flutter Project.
 version: 0.0.1
-homepage:
+homepage: https://github.com/shibinnvc/custom_flutter_textfield
 
 environment:
   sdk: '>=3.1.0 <4.0.0'

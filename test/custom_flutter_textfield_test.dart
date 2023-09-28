@@ -1,12 +1,9 @@
 import 'package:flutter_test/flutter_test.dart';
-
-import 'package:custom_flutter_textfield/custom_flutter_textfield.dart';
+import '../example/example.dart';
 
 void main() {
-  test('adds one to input values', () {
-    final calculator = Calculator();
-    expect(calculator.addOne(2), 3);
-    expect(calculator.addOne(-7), -6);
-    expect(calculator.addOne(0), 1);
+  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
+    // Build our app and trigger a frame.
+    await tester.pumpWidget(const MyApp());
   });
 }
